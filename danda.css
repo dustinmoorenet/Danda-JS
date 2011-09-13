@@ -1,0 +1,63 @@
+.danda-ui-image-gallery-previous-control {
+  /* implement your own style */
+  width: 60px;
+  height: 400px;
+  background: red;
+}
+
+.danda-ui-image-gallery-next-control {
+  /* implement your own style */
+  width: 60px;
+  height: 400px;
+  background: red;
+}
+
+.danda-ui-image-gallery-no-control {
+  background-image: none;
+}
+
+.danda-ui-image-gallery-disabled-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  width: 100%;
+  height: 100%;
+}
+
+.danda-ui-image-gallery-pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.danda-ui-image-gallery-pop-up img {
+  border: solid #fff 5px;
+  border-bottom: none;
+}
+
+.danda-ui-image-gallery-pop-up .danda-ui-image-gallery-controls {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  background: #fff;
+  color: #000;
+}
+
+.danda-ui-image-gallery-pop-up .danda-ui-image-gallery-controls a {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.danda-ui-image-gallery-pop-up .danda-ui-image-gallery-controls a:link,
+.danda-ui-image-gallery-pop-up .danda-ui-image-gallery-controls a:visited {
+  color: #000;
+}
+
+.danda-ui-image-gallery-pop-up .danda-ui-image-gallery-controls a:hover,
+.danda-ui-image-gallery-pop-up .danda-ui-image-gallery-controls a:active {
+  color: #444;
+}

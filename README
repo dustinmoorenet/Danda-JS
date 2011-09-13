@@ -1,0 +1,29 @@
+Danda Javascript Library
+
+If you find this useful then great.
+
+Just put the js file where you normally put Javascript files and put the css file where you put style sheets.
+
+JQuery 1.6 and JQuery Template Plugin is required.
+
+This is my first public library, so go easy on me, but any (constructive) recommendations would be helpful.
+
+-- Features --
+--------------
+Only one for now, I expect more to follow?
+
+-ImageGallery
+This transforms a div containing anchor wrapped image tags into an browsable image gallery. Clicking on an image in the gallery causes the image pop out to a larger size.  If you don't override the style for .danda-ui-image-gallery-previous-control and .danda-ui-image-gallery-next-control you will get ugly red controls on each side.
+
+- Example -
+<script>
+  $(function() {
+    danda.ui.ImageGallery('img_gallery');
+  });
+</script>
+<div id="img_gallery">
+  <a href="images/1_full.jpg"><img src="images/1_thumb.jpg"/></a>
+  <a href="images/2_full.jpg"><img src="images/2_thumb.jpg"/></a>
+  <a href="images/3_full.jpg"><img src="images/3_thumb.jpg"/></a>
+  ...
+</div>
